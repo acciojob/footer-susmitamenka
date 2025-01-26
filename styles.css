@@ -1,1 +1,15 @@
 /* your code here */
+.content{
+	display:flex;
+	height:350px;
+	background-color:black;
+
+	.link-boxes{
+	text-align:center;
+	justify-items:space-between;
+	flex-direction:center;
+	gap:20px;
+	color:white;
+
+	}
+}
