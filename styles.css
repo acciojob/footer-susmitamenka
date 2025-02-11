@@ -1,15 +1,22 @@
 /* your code here */
 .content{
+	margin:50px;
+	padding:10px;
 	display:flex;
+	flex-wrap:wrap;
 	height:350px;
 	background-color:black;
-
-	.link-boxes{
-	text-align:center;
-	justify-items:space-between;
+}
+.link-boxes{
+	text-align:space;
+	justify-content:space-around;
 	flex-direction:center;
-	gap:20px;
 	color:white;
 
 	}
+a{
+	text-decoration-style:;
 }
+
+
+	
