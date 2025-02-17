@@ -1,21 +1,28 @@
 /* your code here */
 .content{
-	margin:50px;
-	padding:10px;
 	display:flex;
 	flex-wrap:wrap;
 	height:350px;
 	background-color:black;
+	width:100%;
 }
 .link-boxes{
 	text-align:space;
 	justify-content:space-around;
-	flex-direction:center;
+	display:flex;
+	gap:5px;
 	color:white;
 
 	}
 a{
-	text-decoration-style:;
+	text-decoration: none;
+	color:white;
+}
+li{
+	list-style-type:none;
+}
+h4{
+	border-bottom-: px solid white;
 }
 
 
