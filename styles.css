@@ -1,29 +1,84 @@
 /* your code here */
-.content{
-	display:flex;
-	flex-wrap:wrap;
-	height:350px;
-	background-color:black;
-	width:100%;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif
 }
-.link-boxes{
-	text-align:space;
-	justify-content:space-around;
-	display:flex;
-	gap:5px;
-	color:white;
-
-	}
-a{
-	text-decoration: none;
-	color:white;
+footer{
+	background-color: black;
+	color: white;
 }
 li{
-	list-style-type:none;
+	list-style-type: none;
+}
+.links li a{
+	text-decoration: none;
+	color: white
+}
+
+.top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* margin: 40px; */
+	padding: 20px;
+	font-size: 20px;
+}
+.link-boxes{
+	display: flex;
+	flex-direction: column;
+}
+.links{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	padding: 15px;
+}
+.media-icons {
+	display: flex;
+	gap: 5px;
+}
+.media-icons a{
+	text-decoration: none;
+	color: white;
+}
+.a1{
+	border-radius: 50%;
+	padding: 10px;
+	background-color: navy;
+}
+.a2{
+	border-radius: 50%;
+	padding: 10px;
+	background-color: blue;
+}
+.a3{
+	border-radius: 50%;
+	padding: 10px;
+	background-color: deeppink;
+}
+.a4{
+	border-radius: 50%;
+	padding: 10px;
+	background-color: navy;
+}
+.a5{
+	border-radius: 50%;
+	padding: 10px;
+	background-color: red;
 }
 h4{
-	border-bottom-: px solid white;
+	display: inline-block;
+	padding-bottom: 2px;
+	border-bottom: 2px solid white;
 }
 
-
-	
+.bottom-details{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #2c2c2c;
+	padding: 15px
+}
